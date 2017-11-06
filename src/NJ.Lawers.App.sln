@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.App", "NJ.Lawers.App\NJ.Lawers.App.csproj", "{E6FC2F17-D142-464B-A331-1F89F36D7832}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.Mangement", "NJ.Lawers.Mangement\NJ.Lawers.Mangement.csproj", "{245BE59F-20A5-4776-96A3-0B8A7D61B86E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.Model", "NJ.Lawers.Model\NJ.Lawers.Model.csproj", "{8231DB55-F144-42B7-91B8-FC3CA2125728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.Dao", "NJ.Lawers.Dao\NJ.Lawers.Dao.csproj", "{6FAA4B4C-8287-42AE-9966-E23BAE6889CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.Imp", "NJ.Lawers.Imp\NJ.Lawers.Imp.csproj", "{C99820C6-3413-4F80-A635-2A220CFD2347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.Common", "NJ.Lawers.Common\NJ.Lawers.Common.csproj", "{D523F3AF-1341-48B6-94CD-28344DE663AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E6FC2F17-D142-464B-A331-1F89F36D7832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6FC2F17-D142-464B-A331-1F89F36D7832}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6FC2F17-D142-464B-A331-1F89F36D7832}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6FC2F17-D142-464B-A331-1F89F36D7832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245BE59F-20A5-4776-96A3-0B8A7D61B86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245BE59F-20A5-4776-96A3-0B8A7D61B86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245BE59F-20A5-4776-96A3-0B8A7D61B86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245BE59F-20A5-4776-96A3-0B8A7D61B86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8231DB55-F144-42B7-91B8-FC3CA2125728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8231DB55-F144-42B7-91B8-FC3CA2125728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8231DB55-F144-42B7-91B8-FC3CA2125728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8231DB55-F144-42B7-91B8-FC3CA2125728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FAA4B4C-8287-42AE-9966-E23BAE6889CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAA4B4C-8287-42AE-9966-E23BAE6889CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FAA4B4C-8287-42AE-9966-E23BAE6889CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FAA4B4C-8287-42AE-9966-E23BAE6889CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99820C6-3413-4F80-A635-2A220CFD2347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99820C6-3413-4F80-A635-2A220CFD2347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99820C6-3413-4F80-A635-2A220CFD2347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99820C6-3413-4F80-A635-2A220CFD2347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D523F3AF-1341-48B6-94CD-28344DE663AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D523F3AF-1341-48B6-94CD-28344DE663AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D523F3AF-1341-48B6-94CD-28344DE663AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D523F3AF-1341-48B6-94CD-28344DE663AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
