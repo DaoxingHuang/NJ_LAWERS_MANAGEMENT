@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.Imp", "NJ.Lawers.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.Common", "NJ.Lawers.Common\NJ.Lawers.Common.csproj", "{D523F3AF-1341-48B6-94CD-28344DE663AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJ.Lawers.Skin", "NJ.Lawers.Skin\NJ.Lawers.Skin.csproj", "{96257B88-CD22-4171-BF3D-2FD1DA36A3DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D523F3AF-1341-48B6-94CD-28344DE663AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D523F3AF-1341-48B6-94CD-28344DE663AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D523F3AF-1341-48B6-94CD-28344DE663AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96257B88-CD22-4171-BF3D-2FD1DA36A3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96257B88-CD22-4171-BF3D-2FD1DA36A3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96257B88-CD22-4171-BF3D-2FD1DA36A3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96257B88-CD22-4171-BF3D-2FD1DA36A3DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
