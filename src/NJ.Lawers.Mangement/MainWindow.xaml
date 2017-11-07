@@ -8,8 +8,8 @@
         Height="600"
         Width="900"
         Title="{Binding Title}"
-        DataContext="{Binding Main, Source={StaticResource Locator}}" WindowStartupLocation="CenterScreen">
-    
+        DataContext="{Binding Main, Source={StaticResource Locator}}" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" Background="{x:Null}">
+
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -19,14 +19,21 @@
     </Window.Resources>
 
     <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="208*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
 
-        <TextBlock FontSize="36"
-                   FontWeight="Bold"
-                   Foreground="Purple"
-                   Text="{Binding Title}"
-                   VerticalAlignment="Center"
-                   HorizontalAlignment="Center"
-                   TextWrapping="Wrap" />
+        <Grid x:Name="gridHead" Margin="0">
+            <Grid.Background>
+                <ImageBrush ImageSource="Assert/img/headbackgroud.png"/>
+            </Grid.Background>
+            <Label Content="{Binding Title}" d:LayoutOverrides="Width, Height" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,0,0,0" Foreground="White" FontWeight="Bold" FontSize="16"/>
+
+        </Grid>
+
+        <Frame x:Name="frame"  Margin="0" Grid.Row="1" NavigationUIVisibility="Hidden" Background="White"/>
 
     </Grid>
 </Window>

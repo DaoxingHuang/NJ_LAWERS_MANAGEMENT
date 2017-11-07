@@ -15,6 +15,12 @@ namespace NJ.Lawers.Mangement
         {
             InitializeComponent();
             Closing += (s, e) => ViewModelLocator.Cleanup();
+            this.MouseLeftButtonDown += MainWindow_MouseLeftButtonDown;            
+        }
+
+        private void MainWindow_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            this.DragMove();
         }
     }
 }

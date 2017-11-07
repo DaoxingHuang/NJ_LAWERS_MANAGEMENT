@@ -9,7 +9,7 @@ namespace NJ.Lawers.Mangement.Design
         {
             // Use this to create design time data
 
-            var item = new DataItem("Welcome to MVVM Light [design]");
+            var item = new DataItem("南京最牛律师事务所");
             callback(item, null);
         }
     }
