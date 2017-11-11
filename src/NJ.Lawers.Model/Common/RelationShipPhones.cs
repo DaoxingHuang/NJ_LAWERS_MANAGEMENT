@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NJ.Lawers
+namespace NJ.Lawers.Common
 {
-    public class CaseType
+   public class RelationShipPhones
     {
-        public string ID { get; set; }
+        public string CasseId { set; get; }
 
-        public string Des { get; set; }
-
+       
     }
 }

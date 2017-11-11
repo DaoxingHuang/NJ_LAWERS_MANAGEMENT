@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NJ.Lawers
+namespace NJ.Lawers.Man
 {
-   public class BusinessMan
+    public class InvolveMan
     {
         public string Id { set; get; }
 
@@ -14,6 +14,11 @@ namespace NJ.Lawers
 
         public string CardId { set; get; }
 
+        public string PhoneNumber { set; get; }
+
         public string Comments { set; get; }
+
+        public string Address { set; get; }
+         
     }
 }
