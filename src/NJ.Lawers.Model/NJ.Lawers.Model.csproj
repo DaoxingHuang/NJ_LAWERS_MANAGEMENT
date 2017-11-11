@@ -40,11 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Case\BusinessMan.cs" />
     <Compile Include="Case\Case.cs" />
-    <Compile Include="Case\CaseStatus.cs" />
-    <Compile Include="Case\CaseType.cs" />
-    <Compile Include="Case\InvolveMan.cs" />
+    <Compile Include="Common\RelationShipPhones.cs" />
+    <Compile Include="LookUp\CaseStatus.cs" />
+    <Compile Include="LookUp\CaseType.cs" />
+    <Compile Include="LookUp\LookUp.cs" />
+    <Compile Include="Man\BusinessMan.cs" />
+    <Compile Include="Man\Client.cs" />
+    <Compile Include="Man\InvolveMan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
