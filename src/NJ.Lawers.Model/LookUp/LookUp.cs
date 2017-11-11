@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NJ.Lawers
+namespace NJ.Lawers.LookUp
 {
-    public class CaseStatus
+    public class LookUp
     {
         public string ID { get; set; }
 
